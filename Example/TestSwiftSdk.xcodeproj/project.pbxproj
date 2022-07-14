@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188FC83E287FF80200C350F5 /* RandomColorFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FC83D287FF80200C350F5 /* RandomColorFile.swift */; };
 		52B72095BEDF2A43ED69ADDF /* Pods_TestSwiftSdk_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004122D22D61777483658BAD /* Pods_TestSwiftSdk_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		004122D22D61777483658BAD /* Pods_TestSwiftSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188FC83D287FF80200C350F5 /* RandomColorFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorFile.swift; sourceTree = "<group>"; };
 		2C2096A5CE0AFB5896FA0AE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		47CFD2AF60D4D8ACC7905298 /* TestSwiftSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestSwiftSdk.podspec; path = ../TestSwiftSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* TestSwiftSdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftSdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188FC83C287FF7C400C350F5 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				188FC83D287FF80200C350F5 /* RandomColorFile.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 		35302BB4172BE82D38B9CF64 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +102,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				188FC83C287FF7C400C350F5 /* Product */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TestSwiftSdk */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -351,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				188FC83E287FF80200C350F5 /* RandomColorFile.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
