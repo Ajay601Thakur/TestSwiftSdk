@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TestSwiftSdk_Example' do
+  pod 'TestSwiftSdk', :path => '../'
+
+  target 'TestSwiftSdk_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
